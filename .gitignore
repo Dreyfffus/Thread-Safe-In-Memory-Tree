@@ -1,0 +1,58 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vs/
+.vscode/
+*.code-workspace
+
+# Premake outputs
+/bin/
+/bin-int/
+/[Bb]uild/
+/[Bb]uild-*/
+
+# Visual Studio intermediates
+Debug/
+Release/
+x64/
+x86/
+ARM*/
+ipch/
+*.obj
+*.iobj
+*.ipdb
+*.pdb
+*.idb
+*.ilk
+*.tlog/
+*.log
+*.pch
+*.exp
+*.lib
+*.dll
+*.exe
+*.cache
+*.rsp
+*.tmp
+*.lastbuildstate
+*.vc.db
+*.VC.db
+*.opendb
+
+# Unit test artifacts
+TestResults/
+*.trx
+
+# Premake-generated VS projects (regenerate with premake5)
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# NuGet (if used)
+packages/
+*.nupkg
+
+!Vendor
