@@ -56,3 +56,4 @@ packages/
 *.nupkg
 
 !Vendor
+!Vendor/Windows/premake5.exe
